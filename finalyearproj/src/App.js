@@ -7,11 +7,7 @@ import Partspage from './pages/Partspage.js';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-        <Mainpage/>
-
-      </header>
+      <Mainpage/>
     </div>
   );
 }

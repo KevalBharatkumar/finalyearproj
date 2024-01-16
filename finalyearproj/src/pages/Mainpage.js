@@ -1,7 +1,10 @@
-import './App.css';
+
 
 export default function Mainpage(){
 
-    <heading>PCParts</heading>
+    <div classname="head">
+     <p>PCParts</p>
+    </div>
+   
 
 }

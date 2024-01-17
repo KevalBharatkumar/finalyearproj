@@ -1,23 +1,18 @@
 import "./Design.css"
-import Mainpage from "./Mainpage.js"
-import Partspage from "./Partspage.js"
+import "./Mainpage.js"
+import "./Partspage.js"
 
 export default function Navbar(){
 
     return(
     <div class = "navbar">
       
-    <ul>
-        <li><a href = "Mainpage">Main page</a></li>
-        <li><a href = "Partspage">Parts page</a></li>
-    </ul>
+    <nav>
+        <li><a href = "./Mainpage.js">Main page</a></li>
+        <li><a href = "./Partspage.js">Parts page</a></li>
+    </nav>
 
     </div>  
 
-
-
-)
-
-    
-
+    )
 }

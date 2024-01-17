@@ -7,7 +7,8 @@ import Partspage from './pages/Partspage.js';
 function App() {
   return (
     <div className="App">
-      <Mainpage/>
+      
+      <Navbar/>
     </div>
   );
 }

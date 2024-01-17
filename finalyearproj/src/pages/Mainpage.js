@@ -8,7 +8,7 @@ export default function Mainpage(){
             <div class = "head">
             <p>PCParts</p>
             </div>
-            <Navbar/>
+            
             <form>
             <input type = "search"  name = "q" placeholder = "search"></input>
             <button>search</button>

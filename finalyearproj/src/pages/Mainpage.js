@@ -1,10 +1,13 @@
-
+import "./Design.css"
 
 export default function Mainpage(){
 
-    <div classname="head">
-     <p>PCParts</p>
-    </div>
+    return(
+        <div class="head">
+        <p>PCParts</p>
+       </div>
+    )
+ 
    
 
 }

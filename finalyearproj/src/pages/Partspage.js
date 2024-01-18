@@ -6,9 +6,12 @@ export default function Partspage(){
     return(
         
         <div class = "head">
+            <div class = "head">
+            <p>PCParts</p>
+            </div>
             <Navbar/>
-            <p>Hi</p>
         </div>
+        
         
     )
 }

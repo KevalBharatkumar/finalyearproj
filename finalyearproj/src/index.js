@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Mainpage from './pages/Mainpage';
+import Partspage from './pages/Partspage';
 import reportWebVitals from './reportWebVitals';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Route path={"/"} element={<App />} />
+    <Route path={"/mainpage"} element={<Mainpage />} />
+    <Route path={"/partspage"} element={<Partspage />} />
   </React.StrictMode>
 );
 

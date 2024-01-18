@@ -1,6 +1,6 @@
 import "./Design.css"
-import "./Mainpage.js"
-import "./Partspage.js"
+import Mainpage from "./Mainpage.js"
+import Partspage from "./Partspage.js"
 
 export default function Navbar(){
 
@@ -8,8 +8,8 @@ export default function Navbar(){
     <div class = "navbar">
       
     <nav>
-        <li><a href = "./Mainpage.js">Main page</a></li>
-        <li><a href = "./Partspage.js">Parts page</a></li>
+        <li><a href = "Mainpage">Main page</a></li>
+        <li><a href = Mainpage={Mainpage}>Parts page</a></li>
     </nav>
 
     </div>  

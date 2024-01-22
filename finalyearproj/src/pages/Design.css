@@ -10,7 +10,7 @@
 
 li{
   display: inline-block;
-  padding: 16px 426px;
+  padding: 20px;
 }
 
 li a{
@@ -24,26 +24,80 @@ li a:hover{
   background-color: purple;
 }
 
-.topnav a, .topnav input[type=text], .topnav .search-container button {
-  float: none;
-  display: block;
-  text-align: left;
-  width: 100%;
-  margin: 0;
-  padding: 14px;
-}
 
-.topnav .search-container button {
-  float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
+.buttondrp {
+  background-color: #048ea7;
+  padding: 16px;
+  font-size: 20px;
   border: none;
-  cursor: pointer;
 }
 
-.topnav .search-container {
-  float: right;
+.links {
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 160px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.links a {
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .links {display: block;}
+
+.box{
+  width: 320px;
+  height: 600px;
+  padding: 10px;
+  border: 5px solid gray;
+  position:fixed; 
+  left:30px; 
+  top: 200px;
+}
+
+.box2{
+  width: 320px;
+  height: 600px;
+  padding: 10px;
+  border: 5px solid gray;
+  position:fixed; 
+  right: 30px; 
+  top: 200px;
+}
+
+.box3{
+  width: 320px;
+  height: 600px;
+  padding: 10px;
+  border: 5px solid gray;
+  position:fixed; 
+  left: 400px; 
+  top: 200px;
+}
+
+.box4{
+  width: 320px;
+  height: 600px;
+  padding: 10px;
+  border: 5px solid gray;
+  position:fixed; 
+  right: 400px; 
+  top: 200px;
+}
+
+.box5{
+  width: 320px;
+  height: 600px;
+  padding: 10px;
+  border: 5px solid gray;
+  position:fixed;
+  left: 785px;
+  top: 200px;
 }

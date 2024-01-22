@@ -11,6 +11,7 @@ export default function Router(){
             <Route path={"/"} element={<App/>} />
             <Route path={"/mainpage"} element={<Mainpage/>} />
             <Route path={"/partspage"} element={<Partspage/>} />
+            <Route path={"/partspage/game"} element={<Partspage/>} />
         </Routes>
         </BrowserRouter>
     );

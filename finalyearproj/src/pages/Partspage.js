@@ -3,9 +3,9 @@ import Navbar from "./Navbar"
 
 export default function Partspage(){
 
-    if(id == "/partspage/game"){
+    // if(id == "/partspage/game"){
         
-    }
+    // }
 
     return(
 

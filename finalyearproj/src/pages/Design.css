@@ -52,6 +52,13 @@ li a:hover{
 
 .dropdown:hover .links {display: block;}
 
+
+.hide{
+  display:none;
+}
+
+
+
 .box{
   width: 320px;
   height: 600px;

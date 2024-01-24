@@ -1,11 +1,15 @@
 import "./Design.css"
 import Navbar from "./Navbar"
 
-export default function Partspage(){
+const hide = document.getElementsByClassName('hide');
+const id = document.getElementsById('id');
+var displaySetting = hide.style.display;
+if(id === '/partspage/game') {
+    displaySetting = 'block';
+}
 
-    // if(id == "/partspage/game"){
-        
-    // }
+
+export default function Partspage(){
 
     return(
 
@@ -18,7 +22,7 @@ export default function Partspage(){
 
                     <div class = "box">
 
-                    <div id = "/partspage/game">
+                    <div class = "hide" className = "hide" id = "/partspage/game">
                         <p>Hi</p>
                     </div>
 

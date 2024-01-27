@@ -1,22 +1,19 @@
 import "./Design.css"
 import Navbar from "./Navbar"
 
-var x = document.getElementById("id")
-if(x == "/partspage/game"){
 
-}
 
 export default function Partspage(){
 
     return(
-
+        
         <div>
             <div class = "head">
                 <div class = "head">
                     <p>PCParts</p>
                 </div>
                 <Navbar/>
-
+                    
                     <div class = "box">
 
                     <div class="hide" id = "/partspage/game">
@@ -55,4 +52,5 @@ export default function Partspage(){
         
         
     )
-}
+    
+    }

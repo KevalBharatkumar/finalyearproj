@@ -1,13 +1,10 @@
 import "./Design.css"
 import Navbar from "./Navbar"
 
-const hide = document.getElementsByClassName('hide');
-const id = document.getElementsById('id');
-var displaySetting = hide.style.display;
-if(id === '/partspage/game') {
-    displaySetting = 'block';
-}
+var x = document.getElementById("id")
+if(x == "/partspage/game"){
 
+}
 
 export default function Partspage(){
 
@@ -22,23 +19,27 @@ export default function Partspage(){
 
                     <div class = "box">
 
-                    <div class = "hide" className = "hide" id = "/partspage/game">
+                    <div class="hide" id = "/partspage/game">
                         <p>Hi</p>
                     </div>
 
                     </div>
 
+
                     <div class = "box2">
 
                     </div>
+
 
                     <div class = "box3">
 
                     </div>
 
+
                     <div class = "box4">
 
                     </div>
+
 
                     <div class = "box5">
 

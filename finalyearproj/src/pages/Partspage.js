@@ -1,22 +1,24 @@
 import "./Design.css"
 import Navbar from "./Navbar"
 
+export default function Partspage(){ 
 
+    
 
-export default function Partspage(){
 
     return(
         
         <div>
             <div class = "head">
-                <div class = "head">
+             <div class = "head">
                     <p>PCParts</p>
                 </div>
+
                 <Navbar/>
                     
                     <div class = "box">
 
-                    <div class="hide" id = "/partspage/game">
+                    <div class="hide" id = "hide1">
                         <p>Hi</p>
                     </div>
 

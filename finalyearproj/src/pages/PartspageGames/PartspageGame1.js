@@ -1,4 +1,4 @@
-import "./Design.css"
+import "./pages/Design.css"
 import Navbar from "./Navbar"
 
 export default function PartspageGame1(){ 
@@ -18,7 +18,7 @@ export default function PartspageGame1(){
                     
                     <div class = "box">
 
-                    <div class="hide" id = "hide1">
+                    <div>
                         <p>Hi</p>
                     </div>
 

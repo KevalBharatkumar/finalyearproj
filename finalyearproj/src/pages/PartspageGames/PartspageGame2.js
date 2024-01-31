@@ -18,7 +18,7 @@ export default function PartspageGame2(){
                     
                     <div class = "box">
 
-                    <div class="hide" id = "hide1">
+                    <div>
                         <p>Hi</p>
                     </div>
 

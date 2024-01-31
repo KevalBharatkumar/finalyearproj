@@ -15,9 +15,9 @@ export default function Mainpage(){
         <div class = "dropdown">
            <button class = "buttondrp">Down</button>
                 <div class = "links" >
-                    <a href = "/partspage/game">Game</a>
-                    <a href = "/Partspage/game2">Game 2</a>
-                    <a href = "/Partspage/game3">Game 3</a>
+                    <a href = "/partspage/game">Starfield</a>
+                    <a href = "/Partspage/game2">GTA 5</a>
+                    <a href = "/Partspage/game3">Hogwarts Legacy</a>
                 </div>
         </div>
 

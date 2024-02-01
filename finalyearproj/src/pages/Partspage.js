@@ -4,7 +4,14 @@ import Navbar from "./Navbar"
 
 
 export default function Partspage(){ 
-    
+    function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+    }
 
     
     return(
@@ -19,7 +26,8 @@ export default function Partspage(){
                     
                     <div class = "box">
                         <b>CPU</b>
-                        <button onclick = "myFunction()"></button>
+
+                        <button onclick = {myFunction()}></button>
                         <div id="myDIV">
                             Show
                         </div>
@@ -58,11 +66,16 @@ export default function Partspage(){
 
             </div>
         </div>
+
+      
         
 
         
         
         
     )
+
     
     }
+
+    

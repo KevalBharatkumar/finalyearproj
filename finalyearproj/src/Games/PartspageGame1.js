@@ -1,9 +1,7 @@
-import "./Design.css"
-import Navbar from "./Navbar"
+import "../pages/Design.css"
+import Navbar from "../pages/Navbar"
 
-export default function PartspageGame2(){ 
-
-    
+export default function PartspageGame1(){ 
 
 
     return(
@@ -17,10 +15,6 @@ export default function PartspageGame2(){
                 <Navbar/>
                     
                     <div class = "box">
-
-                    <div>
-                        <p>Hi</p>
-                    </div>
 
                     </div>
 

@@ -1,11 +1,12 @@
 import "./Design.css"
 import Navbar from "./Navbar"
 
-export default function Partspage(){ 
 
+
+export default function Partspage(){ 
     
 
-
+    
     return(
         
         <div>
@@ -17,30 +18,39 @@ export default function Partspage(){
                 <Navbar/>
                     
                     <div class = "box">
-
-                    <div class="hide" id = "hide1">
-                        <p>Hi</p>
-                    </div>
+                        <b>CPU</b>
+                        <button onclick = "myFunction()"></button>
+                        <div id="myDIV">
+                            Show
+                        </div>
 
                     </div>
 
 
                     <div class = "box2">
 
+                        <b>GPU - Graphics Card</b>
+
                     </div>
 
 
                     <div class = "box3">
+
+                        <b>Motherboard</b>
 
                     </div>
 
 
                     <div class = "box4">
 
+                        <b>Memory</b>
+
                     </div>
 
 
                     <div class = "box5">
+
+                        <b>Storage</b>
 
                     </div>
                 

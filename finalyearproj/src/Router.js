@@ -2,9 +2,9 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Mainpage from "./pages/Mainpage";
 import Partspage from "./pages/Partspage";
 import App from './App'
-import PartspageGame1 from "./pages/PartspageGames/PartspageGame1";
-import PartspageGame2 from "./pages/PartspageGames/PartspageGame2";
-import PartspageGame3 from "./pages/PartspageGames/PartspageGame3";
+import PartspageGame1 from "./Games/PartspageGame1";
+import PartspageGame2 from "./Games/PartspageGame2";
+import PartspageGame3 from "./Games/PartspageGame3";
 
 export default function Router(){
     return(

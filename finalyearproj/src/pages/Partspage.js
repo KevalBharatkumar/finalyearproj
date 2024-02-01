@@ -4,6 +4,7 @@ import Navbar from "./Navbar"
 
 
 export default function Partspage(){ 
+    
     function myFunction() {
         var x = document.getElementById("myDIV");
         if (x.style.display === "none") {

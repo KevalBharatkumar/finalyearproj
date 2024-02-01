@@ -2,19 +2,7 @@ import "./Design.css"
 import Navbar from "./Navbar"
 
 
-
-export default function Partspage(){ 
-    
-    function myFunction() {
-        var x = document.getElementById("myDIV");
-        if (x.style.display === "none") {
-          x.style.display = "block";
-        } else {
-          x.style.display = "none";
-        }
-    }
-
-    
+export default function Partspage(){     
     return(
         
         <div>
@@ -26,40 +14,44 @@ export default function Partspage(){
                 <Navbar/>
                     
                     <div class = "box">
-                        <b>CPU</b>
-
-                        <button onclick = {myFunction()}></button>
-                        <div id="myDIV">
-                            Show
-                        </div>
-
+                        <b class="title">CPU</b>
+                        <button class='component'>
+                            Add Components
+                        </button>
                     </div>
 
 
                     <div class = "box2">
-
                         <b>GPU - Graphics Card</b>
+                        <button class='component'>
+                            Add Components
+                        </button>
 
                     </div>
 
 
                     <div class = "box3">
-
                         <b>Motherboard</b>
+                        <button class='component'>
+                            Add Components
+                        </button>
 
                     </div>
 
 
                     <div class = "box4">
-
                         <b>Memory</b>
-
+                        <button class='component'>
+                            Add Components
+                        </button>
                     </div>
 
 
                     <div class = "box5">
-
                         <b>Storage</b>
+                        <button class='component'>
+                            Add Components
+                        </button>
 
                     </div>
                 

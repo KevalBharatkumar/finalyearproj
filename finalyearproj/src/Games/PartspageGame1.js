@@ -2,7 +2,7 @@ import "../pages/Design.css";
 import Navbar from "../pages/Navbar";
 import 'reactjs-popup/dist/index.css';
 import Popup from "reactjs-popup";
-import { Container } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -37,13 +37,14 @@ export default function PartspageGame1(){
                                 <p class='text'> </p>
 
                             </div2>
-                        
-                        <Container>
-                            <Row>
-                                <Col>Pros</Col>
-                                <Col>Cons</Col>
-                            </Row>
-                        </Container>
+                            
+                            <Container>
+                                <Row>
+                                    <Col>
+                                    </Col>
+                                </Row>
+                            </Container>
+            
 
 
 
@@ -54,10 +55,6 @@ export default function PartspageGame1(){
                     </div>
 
                     </div>
-
-
-
-
 
 
 

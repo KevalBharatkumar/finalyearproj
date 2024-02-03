@@ -5,13 +5,16 @@ import Popup from "reactjs-popup";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Form from 'react-bootstrap/Form'
 
 export default function PartspageGame1(){ 
+    
 
 
     return(
         
         <div>
+            
             <div class = "head">
                 <div class = "head">
                     <p>PCParts</p>
@@ -35,16 +38,9 @@ export default function PartspageGame1(){
                                 <p class='text'>Cache:</p>
                                 <p class='text'>Memory Support: DDR4 </p>
                                 <p class='text'> </p>
-
                             </div2>
-                            
-                            <Container>
-                                <Row>
-                                    <Col>
-                                    </Col>
-                                </Row>
-                            </Container>
-            
+
+                
 
 
 
@@ -134,3 +130,4 @@ export default function PartspageGame1(){
     )
     
     }
+    

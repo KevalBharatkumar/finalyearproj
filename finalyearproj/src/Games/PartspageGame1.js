@@ -20,15 +20,16 @@ return(
 
                 <div class = "box">
                     <b>CPU</b>
+
                 <div>
                
-                    <div2 id='title'>
+                    <div2 id="title">
                         <p>AMD Ryzen 5 3600x</p>
                         {/* image */}
                         <p><b>Information</b></p>
                                 
                         <Popup trigger= 
-                        {<p class='text'>ClockSpeed: 3.8GHz</p>}>
+                        {<p class='text'>ClockSpeed: <b>3.8GHz</b></p>}>
                            <div>
                             The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
                             Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
@@ -41,15 +42,18 @@ return(
                         </Popup>
 
                         <Popup trigger= 
-                        {<p class='text'>Cache: 35MB</p>}>
-                           <div>hi</div>
+                        {<p class='text'>CPU Cache:  <b>35MB</b></p>}>
+                           <div>This is short term memory where information is stored for retrival. 
+                            It is used by the CPU to reduce the time for memory retrival from the main access memory.
+                            </div>
                         </Popup>
 
                         <Popup trigger= 
-                        {<p class='text'>Memory Support: DDR4</p>}>
-                           <div>hi</div>
+                        {<p class='text'>Memory Support: <b>DDR4 RAM</b></p>}>
+                           <div>DDR4 RAM is supported with the Ryzen 5000 series. DDR5 is <b>NOT</b> supported with this CPU.</div>
                         </Popup>     
                     </div2>
+
 
                     <table>
                         <tr>
@@ -64,16 +68,18 @@ return(
                             <th>- running it through to league</th>
                          </tr>
                     </table>
-
+                </div>
 
 
                     <Popup trigger= 
                         {<button class='popup'>Compare</button>}>
                            <div>hi</div>
                     </Popup>
-                    </div>
+                
 
                     </div>
+
+
 
 
 
@@ -87,11 +93,30 @@ return(
                         <p><b>Information</b></p>
 
                         <Popup trigger= 
+                        {<p class='text'>Base Clock Speed: <b>1410MHz</b></p>}>
+                           <div>
+                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
+                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
+                           </div>
+                        </Popup>
+                        
+                        <Popup trigger= 
+                        {<p class='text'>Boost Clock Speed:<b>1665MHz</b></p>}>
+                           <div>
+                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
+                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
+                           </div>
+                        </Popup>
+
+
+                        <Popup trigger= 
                         {<button class='popup'>Compare</button>}>
                            <div>hi</div>
                         </Popup>
 
                     </div>
+
+
 
 
                     <div class = "box3">

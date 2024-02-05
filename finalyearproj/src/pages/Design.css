@@ -130,10 +130,6 @@ width:300px;
  
 }
 
-.box{
-  position: relative;
-}
-
 .text{
   text-align: center;
 }
@@ -143,6 +139,18 @@ width:300px;
 }
 .cons{
   text-align: right;
+}
+
+table{
+  border: 2px seagreen;
+  width: 300px;
+  height: 80px;
+}
+th{
+  border-bottom: 1px black;
+}
+td{
+  text-align: center;
 }
 
 

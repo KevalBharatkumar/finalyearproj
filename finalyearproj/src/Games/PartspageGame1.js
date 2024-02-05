@@ -2,52 +2,75 @@ import "../pages/Design.css";
 import Navbar from "../pages/Navbar";
 import 'reactjs-popup/dist/index.css';
 import Popup from "reactjs-popup";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Form from 'react-bootstrap/Form'
+import React from "react";
 
 export default function PartspageGame1(){ 
     
-
-
-    return(
-        
-        <div>
-            
+return(
+    <div>
+        <div class = "head">
             <div class = "head">
-                <div class = "head">
-                    <p>PCParts</p>
-                </div>
+                <p>PCParts</p>
+            </div>
 
-                <Navbar/>
-                    <p>The software you have chosen is </p>
-                        <b>Starfield</b>
+            <Navbar/>
 
-                        <div class = "box">
-                            <b>CPU</b>
-                       
-                        <div>
-                            <div2 id='title'>
-                                <p>AMD Ryzen 5 3600x</p>
-                                {/* image */}
-                                <p><b>Information</b></p>
-                            
-                                <p class='text'>ClockSpeed:</p>
-                                <p class='text'>CPU Cores: 6cores</p>
-                                <p class='text'>Cache:</p>
-                                <p class='text'>Memory Support: DDR4 </p>
-                                <p class='text'> </p>
-                            </div2>
+            <p>The software you have chosen is </p>
+            <b>Starfield</b>
 
-                
-
-
+                <div class = "box">
+                    <b>CPU</b>
+                <div>
+               
+                    <div2 id='title'>
+                        <p>AMD Ryzen 5 3600x</p>
+                        {/* image */}
+                        <p><b>Information</b></p>
+                                
+                        <Popup trigger= 
+                        {<p class='text'>ClockSpeed: 3.8GHz</p>}>
+                           <div>
+                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
+                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
+                           </div>
+                        </Popup>
+                               
+                        <Popup trigger= 
+                        {<p class='text'>CPU Cores: <b>6</b></p>}>
+                           <div>A CPU core is a processing unit that can execute instructions.</div>
+                        </Popup>
 
                         <Popup trigger= 
-                        {<button class='popup'>Compare</button>}>
+                        {<p class='text'>Cache: 35MB</p>}>
                            <div>hi</div>
                         </Popup>
+
+                        <Popup trigger= 
+                        {<p class='text'>Memory Support: DDR4</p>}>
+                           <div>hi</div>
+                        </Popup>     
+                    </div2>
+
+                    <table>
+                        <tr>
+                            <th>Pros</th>
+                            <th>Cons</th>
+                        </tr>
+                        <tr>
+                            <th>- Hi my name is kev and i am creating something</th>
+                            <th>- Hi i am also creating something idk</th>
+                        </tr>
+                        <tr>
+                            <th>- running it through to league</th>
+                         </tr>
+                    </table>
+
+
+
+                    <Popup trigger= 
+                        {<button class='popup'>Compare</button>}>
+                           <div>hi</div>
+                    </Popup>
                     </div>
 
                     </div>
@@ -72,8 +95,8 @@ export default function PartspageGame1(){
 
 
                     <div class = "box3">
-                    <b>Motherboard</b>
-                    <div id='title'>
+                        <b>Motherboard</b>
+                        <div id='title'>
                             <p>Insert Motherboard</p>
                         </div>
 
@@ -117,9 +140,6 @@ export default function PartspageGame1(){
                         </Popup>
 
                     </div>
-                
-
-
             </div>
         </div>
         

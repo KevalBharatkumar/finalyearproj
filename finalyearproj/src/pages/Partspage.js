@@ -13,13 +13,22 @@ export default function Partspage(){
         const x = event.target.value;
         setShowhide(x);
     } 
-    function myFunc(){
-        const y = document.getElementById('20')
-        if(y.style.display === 'block'){
-          y.style.display = ('none')
-        }
+    // function myFunc(){
+    //     const y = document.getElementById('20')
+    //     if(y.style.display === 'block'){
+    //       y.style.display = ('none')
+    //     }
        
-    }
+    // }
+
+    // export default function App() {
+    //     const [hidden, setHidden] = useState(false);
+    //     return (
+    //       <div className="App">
+    //         <h1>OnClick in the button show and hide</h1>
+    //         {!hidden && <button onClick={() => setHidden(true)}>Click Me</button>}
+    //       </div>
+    //     );
 
 
 
@@ -50,12 +59,12 @@ export default function Partspage(){
                     </div> */}
 
 
-                <div id="20" style={{display: 'block'}}>
-                    <div class="box">
+                <div >
+                    <div class="box" id="Delete">
                         <b>CPU</b>
                         <select class ="component" onChange={(e)=>(handleshowhide(e))}>
                             <option value="">Add Component</option>
-                            <option onClick={myFunc}value="1">Ryzen</option>
+                            <option onClick={myFunction}value="1">Ryzen</option>
                         </select>
                     </div>
                 </div>

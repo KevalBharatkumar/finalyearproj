@@ -73,7 +73,7 @@ export default function Partspage(){
                 <th class='rework2' >
                     <select onChange={(e)=>(handleshowhide(e))}>
                         <option value="">Add Component</option>
-                        <option value="1">Ryzen</option>
+                        <option value="1">Ryzen 5 3600X</option>
                         <option value="2">Ryzen</option>
                     </select>
                 </th>

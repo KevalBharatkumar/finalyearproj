@@ -8,22 +8,23 @@ export default function PartspageGame1(){
     
 return(
     <div>
-        <div class = "head">
+        <div>
             <div class = "head">
                 <p>PCParts</p>
-            </div>
+            
 
             <Navbar/>
 
             <p>The software you have chosen is </p>
             <b>Starfield</b>
+            </div>
 
-                <div class = "box">
+                <div class = "rework">
                     <b>CPU</b>
 
-                <div>
+                    <div>
                
-                    <div2 id="title">
+                <div2>
                         <p>AMD Ryzen 5 3600x</p>
                         {/* image */}
                         <p><b>Information</b></p>
@@ -68,6 +69,7 @@ return(
                             <th>- running it through to league</th>
                          </tr>
                     </table>
+
                 </div>
 
 
@@ -77,18 +79,16 @@ return(
                     </Popup>
                 
 
-                    </div>
+                </div>
 
 
 
 
 
-                    <div class = "box2">
+                <div class = "rework">
                     <b>GPU - Graphics card</b>
 
-                        <div id='title'>
                             <p>GeForce RTX 2080</p>
-                        </div>
 
                         <p><b>Information</b></p>
 
@@ -107,19 +107,33 @@ return(
                             Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
                            </div>
                         </Popup>
-
+                        <table>
+                        <tr>
+                            <th>Pros</th>
+                            <th>Cons</th>
+                        </tr>
+                        <tr>
+                            <th>- Hi my name is kev and i am creating something</th>
+                            <th>- Hi i am also creating something idk</th>
+                        </tr>
+                        <tr>
+                            <th>- running it through to league</th>
+                         </tr>
+                    </table>
 
                         <Popup trigger= 
                         {<button class='popup'>Compare</button>}>
                            <div>hi</div>
                         </Popup>
 
-                    </div>
+                </div>
+
+                
 
 
 
 
-                    <div class = "box3">
+                    <div class = "rework">
                         <b>Motherboard</b>
                         <div id='title'>
                             <p>Insert Motherboard</p>
@@ -135,7 +149,7 @@ return(
                     </div>
 
 
-                    <div class = "box4">
+                    <div class = "rework">
                     <b>Memory</b>
                     <div id='title'>
                             <p>16GB RAM</p>
@@ -151,7 +165,7 @@ return(
                     </div>
 
 
-                    <div class = "box5">
+                    <div class = "rework">
                     <b>Storage</b>
                     <div id='title'>
                             <p>500GB SSD - Minimum</p>

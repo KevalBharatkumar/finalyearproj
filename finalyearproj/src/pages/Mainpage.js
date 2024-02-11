@@ -2,15 +2,17 @@ import "./Design.css"
 import Navbar from "./Navbar.js"
 
 export default function Mainpage(){
-    return(
+return(
         
-    <div class = "head">
-           
+<div>  
         <div class = "head">
             <p>PCParts</p>
         </div>
 
+
         <Navbar/>
+
+        <h4 class='head'>Select a software from below:</h4>
 
         <div class = "dropdown">
            <button class = "buttondrp">Down</button>
@@ -21,7 +23,7 @@ export default function Mainpage(){
                 </div>
         </div>
 
-    </div>
+</div>
 
     )   
 

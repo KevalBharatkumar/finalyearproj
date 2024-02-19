@@ -56,7 +56,7 @@ return(
                     </div2>
 
 
-                    <table>
+                    {/* <table>
                         <tr>
                             <th>Pros</th>
                             <th>Cons</th>
@@ -68,7 +68,7 @@ return(
                         <tr>
                             <th>- running it through to league</th>
                          </tr>
-                    </table>
+                    </table> */}
 
                 </div>
 
@@ -101,13 +101,38 @@ return(
                         </Popup>
                         
                         <Popup trigger= 
-                        {<p class='text'>Boost Clock Speed:<b>1665MHz</b></p>}>
+                        {<p class='text'>Boost Clock Speed: <b>1665MHz</b></p>}>
                            <div>
                             The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
                             Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
                            </div>
                         </Popup>
-                        <table>
+
+                        <Popup trigger= 
+                        {<p class='text'>Memory Size: <b>8GB</b></p>}>
+                           <div>
+                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
+                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
+                           </div>
+                        </Popup>
+
+                        <Popup trigger= 
+                        {<p class='text'>Memory Type: <b>GDDR6</b></p>}>
+                           <div>
+                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
+                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
+                           </div>
+                        </Popup>
+
+                        <Popup trigger= 
+                        {<p class='text'>Outputs: <b>1x HDMI 2.0</b>,<b> 3x DisplayPort</b>,<b> 1x USB Type-C</b></p>}>
+                           <div>
+                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
+                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
+                           </div>
+                        </Popup>
+
+                        {/* <table>
                         <tr>
                             <th>Pros</th>
                             <th>Cons</th>
@@ -119,7 +144,7 @@ return(
                         <tr>
                             <th>- running it through to league</th>
                          </tr>
-                    </table>
+                    </table> */}
 
                         <Popup trigger= 
                         {<button class='popup'>Compare</button>}>
@@ -136,7 +161,7 @@ return(
                     <div class = "rework">
                         <b>Motherboard</b>
                         <div id='title'>
-                            <p>Insert Motherboard</p>
+                            <p>	Asus ROG STRIX B550-F GAMING WIFI II ATX AM4 Motherboard</p>
                         </div>
 
                         <p><b>Information</b></p>
@@ -152,7 +177,7 @@ return(
                     <div class = "rework">
                     <b>Memory</b>
                     <div id='title'>
-                            <p>16GB RAM</p>
+                            <p>Corsair Vengeance LPX 16 GB</p>
                         </div>
 
                         <p><b>Information</b></p>
@@ -168,7 +193,7 @@ return(
                     <div class = "rework">
                     <b>Storage</b>
                     <div id='title'>
-                            <p>500GB SSD - Minimum</p>
+                            <p>Samsung 970 Pro 500MB M.2</p>
                         </div>
 
                         <p><b>Information</b></p>

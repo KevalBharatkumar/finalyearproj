@@ -39,7 +39,7 @@ export default function Partspage(){
         <div>
             
             <div class = "head">
-                <p>PCParts</p>
+                <header>PCParts</header>
             </div>
             
             <Navbar/>

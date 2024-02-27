@@ -6,7 +6,7 @@ return(
         
 <div>  
         <div class = "head">
-            <p>PCParts</p>
+        <header>PCParts</header>
         </div>
 
 

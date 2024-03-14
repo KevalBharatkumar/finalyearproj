@@ -85,10 +85,21 @@ li a:hover{
   margin-left: 1%;
 }
 
+
 .rework2{
   border: 5px solid gray;
+}
+.rework3{
+  float: left;
+  border: 5px solid gray;
+  height: 600px;
+  width: 18.9%;
+  margin-right:5px;
+  
+ 
 
 }
+
 
 
 header{
@@ -150,6 +161,12 @@ header{
   padding:10px;
   margin:0 auto;
   overflow: hidden;
+}
+
+
+
+.Chatbox{
+  text-align: center;
 }
 
 

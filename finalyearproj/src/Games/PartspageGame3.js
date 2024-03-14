@@ -25,7 +25,7 @@ export default function PartspageGame3(){
                     <div class ='text'>
                         <b>CPU</b>
 
-                        <p>AMD Ryzen 5 3600X</p>
+                        <p>AMD Ryzen 5 5600X</p>
                         {/* image */}
                         <p><b>Information</b></p>
 
@@ -39,7 +39,7 @@ export default function PartspageGame3(){
                         </Popup>
 
                         <Popup trigger= 
-                        {<p class='text'>ClockSpeed: <b>3.8GHz</b></p>}>
+                        {<p class='text'>ClockSpeed: <b>3.7GHz</b></p>}>
                            <div>
                             The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
                             Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
@@ -52,7 +52,7 @@ export default function PartspageGame3(){
                         </Popup>
 
                         <Popup trigger= 
-                        {<p class='text'>CPU Cache:  <b>35MB</b></p>}>
+                        {<p class='text'>CPU Cache:  <b>32MB</b></p>}>
                            <div>This is short term memory where information is stored for retrival. 
                             It is used by the CPU to reduce the time for memory retrival from the main access memory.
                             </div>
@@ -84,7 +84,7 @@ export default function PartspageGame3(){
                 <div class ='text'>
                     <b>GPU - Graphics card</b>
 
-                            <p>NVIDIA GeForce 1080Ti</p>
+                            <p>NVIDIA GeForce 1080Ti 11GB</p>
 
                         <p><b>Information</b></p>
                 </div>
@@ -97,50 +97,34 @@ export default function PartspageGame3(){
                         </Popup>
 
                         <Popup trigger= 
-                        {<p class='text'>Base Clock Speed: <b>1410MHz</b></p>}>
+                        {<p class='text'>Base Clock Speed: <b>1480MHz</b></p>}>
                            <div>
-                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
-                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
+                            The clockspeed in a GPU is like the clock speed in a CPU. It is usually represents
+                            how many instructions your GPU can process each second.
                            </div>
                         </Popup>
                         
                         <Popup trigger= 
-                        {<p class='text'>Boost Clock Speed: <b>1665MHz</b></p>}>
-                           <div>
-                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
-                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
+                        {<p class='text'>Boost Clock Speed: <b>1582MHz</b></p>}>
+                            <div>
+                            Depending on the load of power, the GPU can increase its clockspeed to a maximum depending on the card.
                            </div>
                         </Popup>
 
                         <Popup trigger= 
-                        {<p class='text'>Memory Size: <b>8GB</b></p>}>
-                           <div>
-                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
-                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
-                           </div>
+                        {<p class='text'>Memory Size: <b>11GB</b></p>}>
+                            <div>Also known as VRAM, It is similar to RAM however, the VRAM is memory that your GPU uses to render images to your screen.</div>
                         </Popup>
+
+                        <p class='text'>Memory Type: <b>GDDR6</b></p>
 
                         <Popup trigger= 
-                        {<p class='text'>Memory Type: <b>GDDR6</b></p>}>
-                           <div>
-                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
-                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
-                           </div>
-                        </Popup>
+                        {<p class='text'><b>Outputs</b></p>}>
 
-                        <Popup trigger= 
-                        {<p class='text'>Outputs: <b>1x HDMI 2.0</b>,<b> 3x DisplayPort</b>,<b> 1x USB Type-C</b></p>}>
-                           <div>
-                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
-                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
-                           </div>
+                           <div><b>1x HDMI</b>,<b> 3x DisplayPort</b></div>
+                           
+                           
                         </Popup>
-
-                        <Popup trigger= 
-                        {<button class='popup'>Compare</button>}>
-                           <div>hi</div>
-                        </Popup>
-
                 </div>
 
                 
@@ -154,7 +138,7 @@ export default function PartspageGame3(){
                         
                         <b>Motherboard</b>
                         <div id='title'>
-                            <p>	???</p>
+                            <p>MSI MAG B550 TOMAHAWK MAX WIFI</p>
                         </div>
 
                         <p><b>Information</b></p>
@@ -168,43 +152,31 @@ export default function PartspageGame3(){
                         </Popup>
 
                         <Popup trigger= 
-                        {<p class='text'>AMD AM4 Socket for <b>AMD Ryzen 5000 and 3000 series</b></p>}>
-                           <div>
-                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
-                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
-                           </div>
+                        {<p class='text'>AMD AM4 Socket for <b>AMD Ryzen 5000, 4000 and 3000 series</b></p>}>
+                           <div>The socket for the motherboard is AMD ready where only the Ryzen 3000 and 5000 series are compatible with this motherboard.</div>
                         </Popup> 
 
                         <Popup trigger= 
                         {<p class='text'><b>Dual M.2</b> Slots with heatsinks</p>}>
-                           <div>
-                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
-                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
-                           </div>
+                           <div>This motherboard comes with a Dual M.2 slots with heatsinks on the motherboard.</div>
                         </Popup>
+
                         <Popup trigger= 
                         {<p class='text'><b>Connectivity ports</b></p>}>
-                           <div>1. 4x USB 3.2 Gen 1 ports</div>
-                           <div>2. 2x USB 2.0</div>
-                           <div>3. 2x USB 3.2 Gen 2 port - 1x Type-A - 1x Type-C</div>
-                           <div>4. Intel 2.5GB Ethernet</div>
-                           <div>5. 1x HDMI 2.1 port</div>
-                           <div>6. 1x DisplayPort 1.2</div>
-                           <div>7. Built in Wi-Fi 6E</div>
-                           <div>8. 5 Audio jacks</div>
-                        </Popup>
-                        <Popup trigger= 
-                        {<p class='text'>Two way <b>AI Noise cancellation</b></p>}>
-                           <div>1. 4x USB 3.2 Gen 1 ports</div>
+                           <div>1x USB-c 3.1 - 1x USB 3.1 - 2x USB 3.0 - 2x USB 2.0</div>
+                           <div>1x Display Port</div>
+                           <div>1x HDMI 2.1</div>
+                           <div>2x SMA Antenna</div>
+                           <div>1x PS/2 - Keyboard and Mouse</div>
+                           <div>1x RJ-45</div>
+                           <div>5x 3.5mm Jacks - Audio in and out including microphone port </div>
                         </Popup>
 
-                        <Popup trigger= 
-                        {<button class='popup'>Compare</button>}>
-                           <div>hi</div>
-                        </Popup>
+                       
+                        <p class='text'>Built in Wi-Fi 6E and Bluetooth 5.2</p>
+                        
 
-
-
+                        
                     </div>
 
 
@@ -231,11 +203,7 @@ export default function PartspageGame3(){
                         
                         </div>
 
-                        <Popup trigger= 
-                        {<button class='popup'>Compare</button>}>
-                           <div></div>
-                        </Popup>
-
+                   
                     </div>
 
 
@@ -255,10 +223,6 @@ export default function PartspageGame3(){
 
                         </div>
 
-                        <Popup trigger= 
-                        {<button class='popup'>Compare</button>}>
-                           <div>hi</div>
-                        </Popup>
 
 
                     </div>

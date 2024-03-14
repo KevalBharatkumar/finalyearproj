@@ -6,17 +6,17 @@ import React from "react";
 import "../pages/Design.css"
 
 export default function PartspageGame1(){ 
-    
+
 return(
     <div>
         <div>
             <div class = "head">
                 <header>PCParts</header>
             
-            <Navbar/>
+                <Navbar/>
 
-            <p>The software you have chosen is </p>
-            <b>Starfield</b>
+                <p>The software you have chosen is </p>
+                <b>Starfield</b>
             </div>
 
                 <div class = "rework">
@@ -24,7 +24,7 @@ return(
                         <b>CPU</b>
 
                         <p>AMD Ryzen 5 3600x</p>
-                        {/* image */}
+                       
                         <p><b>Information</b></p>
 
                     </div>
@@ -60,30 +60,6 @@ return(
                         {<p class='text'>Memory Support: <b>DDR4 RAM</b></p>}>
                            <div>DDR4 RAM is supported with the Ryzen 5000 series. DDR5 is <b>NOT</b> supported with this CPU.</div>
                         </Popup>     
-                    
-
-                    {/* <table>
-                        <tr>
-                            <th>Pros</th>
-                            <th>Cons</th>
-                        </tr>
-                        <tr>
-                            <th>- Hi my name is kev and i am creating something</th>
-                            <th>- Hi i am also creating something idk</th>
-                        </tr>
-                        <tr>
-                            <th>- running it through to league</th>
-                         </tr>
-                    </table> */}
-
-                
-
-
-                    <Popup trigger= 
-                        {<button class='popup'>Compare</button>}>
-                           <div>hi</div>
-                    </Popup>
-                
 
                 </div>
 
@@ -110,62 +86,36 @@ return(
                         <Popup trigger= 
                         {<p class='text'>Base Clock Speed: <b>1410MHz</b></p>}>
                            <div>
-                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
-                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
+                            The clockspeed in a GPU is like the clock speed in a CPU. It is usually represents
+                            how many instructions your GPU can process each second.
                            </div>
                         </Popup>
                         
                         <Popup trigger= 
                         {<p class='text'>Boost Clock Speed: <b>1665MHz</b></p>}>
                            <div>
-                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
-                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
+                            Depending on the load of power, the GPU can increase its clockspeed to a maximum depending on the card.
                            </div>
                         </Popup>
 
                         <Popup trigger= 
                         {<p class='text'>Memory Size: <b>8GB</b></p>}>
-                           <div>
-                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
-                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
-                           </div>
+                           <div>Also known as VRAM, It is similar to RAM however, the VRAM is memory that your GPU uses to render images to your screen.</div>
                         </Popup>
+
+                     
+                        <p class='text'>Memory Type: <b>GDDR6</b></p>
+                          
 
                         <Popup trigger= 
-                        {<p class='text'>Memory Type: <b>GDDR6</b></p>}>
+                        {<p class='text'><b>Outputs</b></p>}>
                            <div>
-                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
-                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
+                           <b>1x HDMI 2.0</b>,<b> 3x DisplayPort</b>,<b> 1x USB Type-C</b>
                            </div>
+                           
                         </Popup>
 
-                        <Popup trigger= 
-                        {<p class='text'>Outputs: <b>1x HDMI 2.0</b>,<b> 3x DisplayPort</b>,<b> 1x USB Type-C</b></p>}>
-                           <div>
-                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
-                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
-                           </div>
-                        </Popup>
-
-                        {/* <table>
-                        <tr>
-                            <th>Pros</th>
-                            <th>Cons</th>
-                        </tr>
-                        <tr>
-                            <th>- Hi my name is kev and i am creating something</th>
-                            <th>- Hi i am also creating something idk</th>
-                        </tr>
-                        <tr>
-                            <th>- running it through to league</th>
-                         </tr>
-                    </table> */}
-
-                        <Popup trigger= 
-                        {<button class='popup'>Compare</button>}>
-                           <div>hi</div>
-                        </Popup>
-
+                     
                 </div>
 
                 
@@ -194,18 +144,12 @@ return(
 
                         <Popup trigger= 
                         {<p class='text'>AMD AM4 Socket for <b>AMD Ryzen 5000 and 3000 series</b></p>}>
-                           <div>
-                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
-                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
-                           </div>
+                          <div>The socket for the motherboard is AMD ready where only the Ryzen 3000 and 5000 series are compatible with this motherboard.</div>
                         </Popup> 
 
                         <Popup trigger= 
                         {<p class='text'><b>Dual M.2</b> Slots with heatsinks</p>}>
-                           <div>
-                            The clockspeed measures the number of cycles your CPU executes which is then measured in gigahertz.
-                            Ideally, the faster the clocksped, the faster the CPU. However alot of different factors play into this.
-                           </div>
+                          <div>This motherboard comes with a Dual M.2 slots with heatsinks on the motherboard.</div>
                         </Popup>
                         <Popup trigger= 
                         {<p class='text'><b>Connectivity ports</b></p>}>
@@ -218,15 +162,12 @@ return(
                            <div>7. Built in Wi-Fi 6E</div>
                            <div>8. 5 Audio jacks</div>
                         </Popup>
-                        <Popup trigger= 
-                        {<p class='text'>Two way <b>AI Noise cancellation</b></p>}>
-                           <div>1. 4x USB 3.2 Gen 1 ports</div>
-                        </Popup>
+                        <div class='text'>
+                        Two way <b>AI Noise cancellation</b>
+                        </div>
+                        
 
-                        <Popup trigger= 
-                        {<button class='popup'>Compare</button>}>
-                           <div>hi</div>
-                        </Popup>
+                    
 
 
 
@@ -255,12 +196,6 @@ return(
                         <p>This perticular RAM should be enough for Starfield.</p>
                         
                         </div>
-
-                        <Popup trigger= 
-                        {<button class='popup'>Compare</button>}>
-                           <div></div>
-                        </Popup>
-
                     </div>
 
 
@@ -279,12 +214,6 @@ return(
                         <p>SSD have a max speed of <b>600MB/s</b>, in comparison, the <b>M.2 cards can go up to 4GB/s.</b></p>
 
                         </div>
-
-                        <Popup trigger= 
-                        {<button class='popup'>Compare</button>}>
-                           <div>hi</div>
-                        </Popup>
-
 
                     </div>
             </div>

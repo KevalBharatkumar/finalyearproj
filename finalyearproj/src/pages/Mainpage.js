@@ -18,29 +18,29 @@ export default function Mainpage(){
 
             { id: 'A', value: 1, label: 'What is a CPU?', trigger:'A'},
             { id: 'B', value: 2, label: 'What is a GPU?', trigger:'B'},
-            { id: 'C', value: 3, label: 'What is a motherboard?', trigger:'C'},
+            { id: 'C', value: 3, label: 'What is a Motherboard?', trigger:'C'},
             { id: 'D', value: 4, label: 'What is RAM?', trigger:'D'},
         ],
 
     }, 
     {
         id: 'A',
-        message: 'Something',
+        message: ' The CPU stands for central processing unit and is initially the brain of the computer. This provides instructions and power for the computer to function together.',
         trigger: '1'
     },
     {
         id: 'B',
-        message: 'Something22',
+        message: 'The GPU stands for graphics processing unit. The GPU renders images and grpahics by performing mathematical calculations.',
         trigger: '1'
     },
     {
         id: 'C',
-        message: 'Something222',
+        message: 'The Motherboard is the main circuit board of the computer where all components and external peripherals are connected.',
         trigger: '1'
     },
     {
         id: 'D',
-        message: 'Something2222',
+        message: 'RAM or Random Access Memory is a hardware component which is a temporary storage. The computer can access this storage much faster than HDD and SSD.',
         trigger: '1'
     }
 ];

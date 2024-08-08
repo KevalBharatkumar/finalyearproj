@@ -1,0 +1,170 @@
+.head {
+    text-align: center;
+}
+
+.navbar{
+   list-style-type: none;
+   background-color: hsl(0, 0%, 0%);
+   overflow: hidden;  
+  }
+
+  .titlesbutton{
+    list-style-type: none;
+    overflow: hidden; 
+    background-color: #048ea7;
+    margin-top: 80px;
+}
+
+
+.titles{
+    list-style-type: none;
+    background-color: hsl(0, 84%, 32%);
+    overflow: hidden; 
+    margin-top: 50px;
+}
+
+.buttons{
+  float: left;
+}
+
+li{
+  display: inline-block;
+  padding: 20px;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: purple;
+}
+
+.buttondrp {
+  background-color: #048ea7;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  position: sticky;
+}
+
+.links {
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 160px;
+}
+
+.dropdown {
+  position: sticky;
+  text-align: center;
+  display:grid;
+}
+
+.links a {
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .links {display: block;}
+
+
+
+
+.rework{
+  float: left;
+  border: 5px solid gray;
+  width: 18%;
+  height: 600px;
+  margin-right:5px;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+
+.rework2{
+  border: 5px solid gray;
+}
+.rework3{
+  float: left;
+  border: 5px solid gray;
+  height: 600px;
+  width: 18.9%;
+  margin-right:5px;
+  
+ 
+
+}
+
+
+
+header{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+
+
+
+.title{
+  display: inline;
+  text-align: center;
+}
+
+
+.component{ 
+  position:absolute;
+  top:220px;
+  left: 40px;
+  height: 50px;
+  width:300px;
+  }
+
+
+.popup{
+ position: sticky;
+ height: 30px;
+ width: 200px;
+}
+
+.text{
+  text-align: center;
+}
+
+.pros{
+  text-align: left;
+}
+.cons{
+  text-align: right;
+}
+
+
+.th{
+  border-bottom: 1px black;
+  text-align: center;
+}
+.table{
+  width: 100%;
+}
+
+
+
+/*partspage*/
+
+.menu{
+  position: sticky;
+  top:0;
+  padding:10px;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+
+
+.Chatbox{
+  text-align: center;
+}

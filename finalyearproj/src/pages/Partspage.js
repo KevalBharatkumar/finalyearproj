@@ -4,9 +4,8 @@ import Popup from "reactjs-popup"
 import React , {useState} from "react"
 
 
-
-export default function Partspage(){     
-
+export default function Partspage(){    
+    
     const [showhide, setShowhide]=useState();
     const [showhide2, setShowhide2]=useState();
     const [showhide3, setShowhide3]=useState();
@@ -14,8 +13,8 @@ export default function Partspage(){
     const [showhide5, setShowhide5]=useState();
 
     const handleshowhide=(event)=>{
-        const x = event.target.value;
-        setShowhide(x);
+        const y = event.target.value;
+        setShowhide(y);
     }
     const handleshowhide2=(event)=>{
         const y = event.target.value;
@@ -37,7 +36,6 @@ export default function Partspage(){
     return(
         
         <div>
-            
             <div class = "head">
                 <header>PCParts</header>
             </div>
@@ -46,9 +44,9 @@ export default function Partspage(){
             <div class='head'>
                 <p><b>Choose your Components</b></p>
             </div>
-        
         <div>
-                
+
+   
         <table class='table'>
             <tr>
                 <th class='rework2'>
@@ -112,7 +110,6 @@ export default function Partspage(){
             </tr>
             
             </table>
-
          
             <div class="rework3" id='CPU'>
 

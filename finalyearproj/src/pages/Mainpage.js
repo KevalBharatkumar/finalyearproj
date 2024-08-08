@@ -2,7 +2,7 @@ import "./Design.css"
 import Navbar from "./Navbar.js"
 import ChatBot from 'react-simple-chatbot';
 
-
+  
 export default function Mainpage(){
 
 
@@ -67,8 +67,6 @@ return(
                 </div>
         </div>
 
-
-        
             <ChatBot steps={steps} />
 
 
